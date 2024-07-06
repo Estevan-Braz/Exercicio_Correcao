@@ -29,7 +29,7 @@ create table aluno(
     fk_id_pessoa bigint not null,
     created_at timestamp default current_timestamp,
     updated_at timestamp default current_timestamp on update current_timestamp,
-    foreign key fk_professor_pessoa (fk_id_pessoa) references pessoa(id)
+    foreign key fk_aluno_pessoa (fk_id_pessoa) references pessoa(id)
 );
 
 
