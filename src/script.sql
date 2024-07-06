@@ -1,6 +1,6 @@
-create database fera;
+create database spring_correcao;
 
-use fera;
+use spring_correcao;
 
 create table pessoa(
 	id bigint auto_increment primary key,
